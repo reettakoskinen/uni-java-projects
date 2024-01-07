@@ -13,7 +13,7 @@ import java.net.http.HttpResponse;
 * Implementation of the iAPI interface for interacting with the OpenWeatherMap API.
 */
 public class weatherApiImpl implements iAPI {
-    private final String apiKey = "b201aa400ba5bdc211c7bbf93e38162f"; 
+    private final String apiKey = ""; // Add your API key
 
     /**
      * Looks up the geographical coordinates (latitude and longitude) for a given location.
